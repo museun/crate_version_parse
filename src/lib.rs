@@ -153,7 +153,7 @@ mod tests {
         ];
 
         for (input, expected) in tests {
-            let crate_ = crate::try_parse(input).unwrap();
+            let crate_ = try_parse(input).unwrap();
             assert_eq!(crate_, *expected);
         }
     }
