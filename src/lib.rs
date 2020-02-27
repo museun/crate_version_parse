@@ -11,7 +11,7 @@
     unused_qualifications
 )]
 
-/*! A crate name and version
+/*! A crate name and version parser
 
 ## Features
 * `serde` enables [serde](https://serde.rs) support
