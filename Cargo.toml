@@ -11,6 +11,10 @@ readme        = "README.md"
 keywords      = ["cargo", "crate", "parse", "semver", "nostd"]
 categories    = ["development-tools"]
 
+[features]
+default = ["std"]
+std = []
+
 [dependencies]
 serde = { version = "^1.0", optional = true, features = ["derive"] }
 
